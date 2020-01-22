@@ -1,0 +1,6 @@
+application/store/CloudantVisitorStore.class
+application/Visitor.class
+application/rest/v1/Example.class
+application/store/VisitorStore.class
+application/store/VCAPHelper.class
+application/store/VisitorStoreFactory.class

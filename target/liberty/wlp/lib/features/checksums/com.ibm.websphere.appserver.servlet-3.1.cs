@@ -1,0 +1,19 @@
+#Wed Nov 20 06:08:33 GMT 2019
+lib/com.ibm.websphere.security_1.1.35.jar=ebbea14c1baa22deeb61814cf865565e
+lib/com.ibm.ws.webcontainer.cors_1.0.35.jar=b551fd20d491bb365d84e6800cbf2fef
+lib/com.ibm.ws.http.plugin.merge_1.0.35.jar=736ff2d41e0159771960d3a4da2456e5
+lib/com.ibm.ws.webcontainer.servlet.3.1_1.0.35.jar=c19a4d981273c802c7862498332aa04a
+lib/com.ibm.ws.app.manager.war_1.0.35.jar=c0a069c76ac2098d95423c0b43eb63fc
+lib/com.ibm.ws.org.apache.commons.fileupload_1.0.35.jar=34380209667a371b8baf2026e164c969
+lib/com.ibm.ws.webserver.plugin.runtime_1.0.35.jar=2026c6344974326feb86c88d4e89da1e
+lib/com.ibm.ws.webserver.plugin.utility_1.0.35.jar=b4d24a8bf642a6c9f34a70bae377eeea
+dev/api/ibm/com.ibm.websphere.appserver.api.servlet_1.1.35.jar=2bc3a53cf7ccf524e05a82b398990a20
+lib/com.ibm.ws.webcontainer_1.1.35.jar=1ca7bd0d1fb74e35ec522e4e1e3e5fc6
+dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.servlet_1.1-javadoc.zip=c34125cd6e0ec93682d34c1b988ed661
+bin/tools/ws-webserverPluginutil.jar=4b4d021dd3fd01b237f6c8319cfbc75f
+lib/com.ibm.ws.managedobject_1.0.35.jar=e2e1d99c42f63c17970226d1c695732d
+lib/com.ibm.ws.org.apache.commons.io_1.0.35.jar=401b5bcad5c19f8d9abe76bf9ac13730
+lib/com.ibm.ws.session_1.0.35.jar=3c2812d70c7a94ec06db6968f7e0e6db
+lib/com.ibm.ws.webserver.plugin.runtime.interfaces_1.0.35.jar=c0cb3b55fc77ebfb6c494b027e8ca8e5
+lib/com.ibm.ws.webcontainer.servlet.3.1.factories_1.0.35.jar=492de149dac86aeb8f23f03edbc149b3
+lib/features/com.ibm.websphere.appserver.servlet-3.1.mf=9a54a927c2b5c4bb1186fbe860980538

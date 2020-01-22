@@ -1,0 +1,44 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: getstartedjava-jaylee
+  labels:
+    app: getstartedjava-jaylee
+    version: v1
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: getstartedjava-jaylee
+        version: v1
+    spec:
+      containers:
+      - name: getstartedjava-jaylee
+        image: us.icr.io/cr-name-jhlee/getstartedjava-jaylee:latest
+        ports:
+        - containerPort: 9080
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 9080
+          initialDelaySeconds: 10
+          periodSeconds: 5
+---
+kind: Service
+apiVersion: v1
+metadata:
+  annotations:
+    webapi: "true"
+  name: getstartedjava-jaylee
+  labels:
+    app: getstartedjava-jaylee
+spec:
+  selector:
+    app: getstartedjava-jaylee
+  type: NodePort
+  ports:
+  - port: 80
+    targetPort: 9080
+    protocol: TCP
+    name: http

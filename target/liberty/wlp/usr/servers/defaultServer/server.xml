@@ -1,0 +1,66 @@
+<!-- <server>
+
+    <featureManager>
+        <feature>beanValidation-1.1</feature>
+        <feature>cdi-1.2</feature>
+        <feature>ejbLite-3.2</feature>
+        <feature>el-3.0</feature>
+        <feature>jaxrs-2.0</feature>
+        <feature>jdbc-4.1</feature>
+        <feature>jndi-1.0</feature>
+        <feature>jpa-2.1</feature>
+        <feature>jsf-2.2</feature>
+        <feature>jsonp-1.0</feature>
+        <feature>jsp-2.3</feature>
+        <feature>managedBeans-1.0</feature>
+        <feature>servlet-3.1</feature>
+        <feature>websocket-1.1</feature>
+    </featureManager>
+
+    <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
+      id="defaultHttpEndpoint" host="*">
+        <tcpOptions soReuseAddr="true"/>
+    </httpEndpoint>
+
+   <webApplication name="javalibertymicroservice-1.0-SNAPSHOT" location="${app.location}" contextRoot="/"/>
+
+</server> -->
+
+
+<server description="Sample Liberty server">
+
+  <featureManager>
+      <!-- <feature>microprofile-1.2</feature> -->
+       <feature>beanValidation-1.1</feature>
+        <feature>cdi-1.2</feature>
+        <feature>ejbLite-3.2</feature>
+        <feature>el-3.0</feature>
+        <feature>jaxrs-2.0</feature>
+        <feature>jdbc-4.1</feature>
+        <feature>jndi-1.0</feature>
+        <feature>jpa-2.1</feature>
+        <feature>jsf-2.2</feature>
+        <feature>jsonp-1.0</feature>
+        <feature>jsp-2.3</feature>
+        <feature>managedBeans-1.0</feature>
+        <feature>servlet-3.1</feature>
+        <feature>websocket-1.1</feature>
+          <!-- <feature>ssl-1.0</feature> -->
+
+  </featureManager>
+
+  <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}" id="defaultHttpEndpoint" host="*">
+   <tcpOptions soReuseAddr="true"/>
+  </httpEndpoint>   
+
+ <!-- <keyStore id="defaultKeyStore" password="mpKeystore"/>
+  <mpMetrics authentication="false"/> -->
+
+  <!-- Automatically expand WAR files and EAR files -->
+  <applicationManager autoExpand="true"/>
+
+  <applicationMonitor pollingRate="1000ms"/>
+
+  <webApplication name="javalibertymicroservice-1.0-SNAPSHOT" location="${app.location}" contextRoot="/"/>
+
+</server>

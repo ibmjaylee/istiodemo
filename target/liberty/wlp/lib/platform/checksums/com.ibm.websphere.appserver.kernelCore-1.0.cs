@@ -1,0 +1,25 @@
+#Wed Nov 20 06:08:32 GMT 2019
+lib/com.ibm.ws.runtime.update_1.0.35.jar=0a740d568a1410a71b8ce6fa054cedff
+lib/com.ibm.ws.org.eclipse.equinox.region_1.0.35.jar=f42b821c3188b717ac56e5182383cc56
+lib/com.ibm.ws.kernel.equinox.module_1.0.35.jar=c9f4b14bf75854e90f9095f5471fc5c7
+lib/com.ibm.ws.kernel.feature_1.0.35.jar=c9e68d8a8b306e127c6c60f7f67ce487
+lib/com.ibm.ws.jmx_1.0.35.jar=50f53f3a46ffa33fcb142601d4f268f5
+lib/com.ibm.ws.org.jboss.jandex_1.0.35.jar=6d38c4085815abc5265857aa8c574468
+lib/org.eclipse.osgi_3.15.0.jar=2bf5c4a67b16d861938fb780448f7204
+lib/com.ibm.ws.kernel.filemonitor_1.0.35.jar=9367944e58d0e5fbb7bbbfcf19ae7efc
+lib/com.ibm.ws.org.apache.aries.jmx.core.whiteboard_1.0.35.jar=0242d70024e71c91983b8adf1a9eb43f
+lib/com.ibm.ws.org.objectweb.asm_1.0.35.jar=3b6e0b8298b3cf76b82e8f0315099555
+lib/com.ibm.ws.org.eclipse.equinox.metatype_1.0.35.jar=e1f4117911041e92c01f3233a03d1957
+lib/platform/kernelCore-1.0.mf=06e268a63a7eacc63c961eeda502c455
+lib/com.ibm.ws.diagnostics_1.0.35.jar=19ae99f6159992c2047692f4c0124969
+lib/com.ibm.ws.crypto.passwordutil_1.0.35.jar=80d4c04a3e84f22eb69da3ce5aa5357b
+lib/com.ibm.ws.kernel.service_1.3.35.jar=fa7df8e48cc8ddab1b11495b44590863
+lib/com.ibm.ws.kernel.metatype.helper_1.0.35.jar=a3ad8928630c2b9eca0443eb80a2f8b2
+lib/com.ibm.ws.org.apache.aries.util_1.0.35.jar=0670c3518d950e15741386db08b1b12c
+lib/com.ibm.ws.event_1.0.35.jar=0f7e774dfb62869f5487418c79944637
+lib/com.ibm.ws.threading_1.1.35.jar=fe58e23055dc8c973db8ac8cbc360532
+lib/com.ibm.ws.config.ext_1.0.35.jar=5f50b637d689ba759754684e7f00f3aa
+lib/com.ibm.ws.org.eclipse.equinox.coordinator_1.0.35.jar=b8083137274c767a87c864d9dcf52712
+lib/com.ibm.ws.org.apache.felix.scr_1.0.35.jar=5d032b1781effbd8d2527b914c9d1af9
+lib/com.ibm.ws.config_1.0.35.jar=9e7a43e364ba4174fe43ed642d59b1c9
+lib/com.ibm.ws.org.apache.aries.jmx.api_1.0.35.jar=aa7e9607b39cf176f26d73b8be62520a

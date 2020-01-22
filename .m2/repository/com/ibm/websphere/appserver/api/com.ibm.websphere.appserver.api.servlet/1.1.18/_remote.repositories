@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Oct 24 05:38:35 GMT 2019
+com.ibm.websphere.appserver.api.servlet-1.1.18.jar>central=
+com.ibm.websphere.appserver.api.servlet-1.1.18.pom>central=

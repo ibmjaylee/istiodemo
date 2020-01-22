@@ -1,0 +1,21 @@
+
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: eventmain-vs-[USERNAME]
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - eventgateway
+  http:
+  - match:
+    - uri:
+        prefix: /[USERNAME]/
+    rewrite:
+      uri: /
+    route:
+    - destination:
+        host: getstartedjava-[USERNAME]
+        port:
+          number: 80
