@@ -39,10 +39,11 @@ else
     echo "Dockerfile not found at: ${DOCKER_FILE}"
     exit 1
 fi
-echo "Linting Dockerfile"
-npm install -g dockerlint
-dockerlint -f ${DOCKER_ROOT}/${DOCKER_FILE}
-
+#echo "Linting Dockerfile"
+#npm install -g dockerlint
+#dockerlint -f ${DOCKER_ROOT}/${DOCKER_FILE}
+echo "================================"
+echo " dockerlint skip "
 echo "=========================================================="
 echo "Checking registry current plan and quota"
 ibmcloud cr plan || true
