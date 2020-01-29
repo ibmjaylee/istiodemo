@@ -1,7 +1,6 @@
 
 FROM websphere-liberty:kernel
 LABEL maintainer="IBM Java Engineering at IBM Cloud"
-RUN ls /target
 COPY --chown=1001:0 /target/liberty/wlp/usr/servers/defaultServer /config/
 # Grant write access to apps folder, this is to support old and new docker versions.
 # Liberty document reference : https://hub.docker.com/_/websphere-liberty/
